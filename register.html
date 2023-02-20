@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form>
+        Username: <input type="text" name="username"><br>
+        Password: <input type="password" minlength="5" name="password"><br>
+        Birthday: <input type="date" name="birthday"><br>
+        Email: <input type="email" required name="email"><br>
+        Gender: <br> 
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other<br>
+            <input type="radio" name="gender" value="trans"> Trans<br>
+        Pet: <br>
+            Dog <input type="checkbox" name="pet" value="dog">
+            Cat <input type="checkbox" name="pet" value="cat"><br>
+        Country <br>
+        <select name="country">
+            <option>India</option>
+            <option>US</option>
+            <option>Bulgaria</option>
+            <option>Russia</option>
+        </select> <br><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
+<!-- ?username=ads
+&password=asdadsad
+&birthday=2023-01-31
+&email=sads%40sadas
+&gender=male
+&pet=dog
+&country=Russia -->
