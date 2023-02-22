@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+a {
+    display: inline-block;
+    color: black;
+    font-size: larger;
+    text-decoration: solid;
+}
+
+ol {
+    color: darkgreen;
+    font-size: larger;
+}
+
+form {
+    font-weight: bold;
+}
+
+input {
+    font-size: large;
+    text-decoration: solid;
+}
